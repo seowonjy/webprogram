@@ -35,7 +35,7 @@
                response.sendRedirect("membersList.jsp");
             }
             else{
-               response.sendRedirect("membership.jsp");
+               response.sendRedirect("bang.jsp");
             }
          }
          else
@@ -47,8 +47,8 @@
    <table border="0">
       <tr>   
          <td>
-            <form action="membersList.jsp" method="post" >
-               <input type="submit" value=" ◀ 등록 회원 관리하기 " >
+            <form action="bang.jsp" method="post" >
+               <input type="submit" value=" ◀ 서비스 이용하기" >
             </form>
          </td>
          <td>

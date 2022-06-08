@@ -9,19 +9,19 @@
 <body>
 	Home > 회원 등록 성공 
 	<hr>
-	축하합니다! <br>
-	관리자인 경우만 로그인 수행이 가능합니다. <br><br>
+	회원가입 축하합니다! <br>
+	로그인 수행후에 이용이 가능합니다. <br><br>
 
 	<table border="0">
 		<tr>
 			<td>
-				<form action="membership.jsp" method="post" >
-						<input type="submit" value="◀ 사용자 공간 이동 " >
+				<form action="main.jsp" method="post" >
+						<input type="submit" value="◀ 메인 화면 이동 " >
 				</form>
 			</td>
 			<td> 
 				<form action="login.jsp" method="post" >
-					<input type="submit" value=" 관리자 모드 이동 ▶" >
+					<input type="submit" value=" 로그인 화면 이동 ▶" >
 				</form> 
 			</td>
 		</tr>
