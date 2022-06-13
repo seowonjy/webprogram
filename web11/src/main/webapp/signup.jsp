@@ -38,6 +38,7 @@
 	</script>
 </head>
 <body>
+<center>
 	Home > 회원 가입
 	<hr>
 	<form action="insertDB.jsp" name="user_info" 
@@ -52,7 +53,7 @@
 			<input type="password" size = "16" name="userPW"><br><br>
 			
 			이메일 : <br>
-			<input type="email" size="30" name="userMAIL"><br>	
+			<input type="email" size="30" name="userMAIL"><br><br>
 			
 			이름 : <br> 
 			<input type="text" size = "16" name="userNAME"><br><br>	
@@ -62,5 +63,6 @@
 			<br><br>
 		</fieldset>
 	</form>
+	</center>
 </body>
 </html>

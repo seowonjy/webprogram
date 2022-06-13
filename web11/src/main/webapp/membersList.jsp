@@ -60,14 +60,19 @@ else
    <hr>
    <table border="1">
       <tr>
+     	 <td>
+            <form action="search2.jsp" method="post" >
+               <input type="submit" value="회원 검색하기" >
+            </form>
+         </td>  
          <td>
             <form action="withdraw.jsp" method="post" >
-               <input type="submit" value=" ◀ 회원 탈퇴시키기 " >
+               <input type="submit" value="회원 탈퇴시키기" >
             </form>
          </td>    
          <td>
             <form action="logout.jsp" method="post" >
-               <input type="submit" value=" 로그 아웃 ▶" >
+               <input type="submit" value="로그 아웃" >
             </form>
          </td>
       </tr>

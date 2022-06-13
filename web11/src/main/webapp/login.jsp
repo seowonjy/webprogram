@@ -43,7 +43,7 @@
 			</tr>
 			<tr height="50">
 				<td></td>
-				<td><input type="submit" value=" 로그인 ▶▶ "></td>
+				<td><input type="submit" value=" 로그인"></td>
 			</tr>
 			</table>
 		</fieldset>

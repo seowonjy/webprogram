@@ -16,12 +16,12 @@
 		<tr>
 			<td>
 				<form action="main.jsp" method="post" >
-						<input type="submit" value="◀ 메인 화면 이동 " >
+						<input type="submit" value="메인 화면 이동" >
 				</form>
 			</td>
 			<td> 
 				<form action="login.jsp" method="post" >
-					<input type="submit" value=" 로그인 화면 이동 ▶" >
+					<input type="submit" value="로그인 화면 이동" >
 				</form> 
 			</td>
 		</tr>

@@ -16,7 +16,7 @@
    <% 
       String u_title = request.getParameter("userTITLE");
       String u_text = request.getParameter("userTEXT");
-      
+
       Statement sm = conn.createStatement();
       ResultSet rs = sm.executeQuery("SELECT title, text FROM bang");
       
@@ -41,12 +41,12 @@
       <tr>
          <td>
             <form action="addbang.jsp" method="post" >
-               <input type="submit" value=" ◀ 게시글 등록하기" >
+               <input type="submit" value="게시글 등록하기" >
             </form>
          </td>    
          <td>
             <form action="logout.jsp" method="post" >
-               <input type="submit" value=" 로그 아웃 ▶" >
+               <input type="submit" value=" 로그 아웃" >
             </form>
          </td>
       </tr>

@@ -40,6 +40,7 @@
 	</script>
 </head>
 <body>
+<center>
 	Home > 회원 정보 수정
 	<hr>
 	<form action="update.jsp" name="user_up" 
@@ -67,5 +68,6 @@
 			<br><br>
 		</fieldset>
 	</form>
+	</center>
 </body>
 </html>
