@@ -17,9 +17,9 @@
 			<table>
 			<tr height="30">
 				<td align="center">항목&nbsp;</td>
-				<td><input type="radio" id="userID" name="checkID" value="id">아이디</td>
-				<td><input type="radio" id="userNAME" name="checkNAME" value="name">이름</td>
-				<td><input type="radio" id="userMAIL" name="checkEMAIL" value="email">이메일</td>
+				<td><input type="radio" name="check" value="id">아이디</td><br>
+				<td><input type="radio" name="check" value="name">이름</td><br>
+				<td><input type="radio" name="check" value="email">이메일</td>
 			</tr>
 			<tr height="40">
 				<td align="center">검색 내용&nbsp;</td>

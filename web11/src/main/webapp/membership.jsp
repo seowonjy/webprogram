@@ -17,12 +17,12 @@
 		<tr>
 			<td>
 				<form action="main.jsp" method="post" >
-					<input type="submit" value=" ◀ 메인 화면 " >
+					<input type="submit" value="메인 화면" >
 				</form>
 			</td>
 			<td>	
 				<form action="withdraw.jsp" method="post" >
-					<input type="submit" value=" 회원 탈퇴하기 ▶" >
+					<input type="submit" value="회원 탈퇴하기" >
 				</form>
 			</td>
 		</tr>	

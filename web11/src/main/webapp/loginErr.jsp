@@ -14,7 +14,7 @@
 	
 	<form action="login.jsp" name="err_form" method="post" >
 		<p>
-		<input type="submit" value=" 다시 로그인 ▶▶" >
+		<input type="submit" value="다시 로그인" >
 	</form> 	
 </body>
 </html>

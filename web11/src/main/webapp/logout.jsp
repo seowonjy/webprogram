@@ -18,7 +18,7 @@
 		session.removeAttribute("memberId");	
 	%>
 	<form action="main.jsp" method="post" >
-		<input type="submit" value=" 메인 화면으로 이동 ▶ " >
+		<input type="submit" value=" 메인 화면으로 이동" >
 	</form>
 </body>
 </html>

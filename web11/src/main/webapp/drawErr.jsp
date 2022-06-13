@@ -14,7 +14,7 @@
 
 	<form action="withdraw.jsp" name="w_form" method="post" >
 		<p>
-		<input type="submit" value=" 회원 탈퇴 재시도 ▶" >
+		<input type="submit" value=" 회원 탈퇴 재시도" >
 	</form> 	
 </body>
 </html>

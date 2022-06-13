@@ -26,6 +26,7 @@ else
    <title> Members List </title>
 </head>
 <body>
+<center>
    Home > 등록 회원 관리
    <hr>
    <table border="1">
@@ -55,27 +56,45 @@ else
       
       rs.close();
       sm.close();
-      conn.close();   
+      conn.close();  
    %>
+   </center>
+   </table>
+   <hr>
+<body>
+	<hr>
+	<form name="searchForm" action="searchSuccess2.jsp" 
+		method="post" >
+		<fieldset style="width:500px">
+			<legend> 검색 화면 </legend><p>
+			<table>
+			<tr height="30">
+				<td align="center">항목&nbsp;</td>
+				<td><input type="radio" name="check" value="id">아이디</td><br>
+				<td><input type="radio" name="check" value="name">이름</td><br>
+				<td><input type="radio" name="check" value="email">이메일</td>
+			</tr>
+			<tr height="40">
+				<td align="center">검색 내용&nbsp;</td>
+				<td><input type="text" name="String"></td>
+			</tr>
+			<tr height="50">
+				<td></td>
+				<td><input type="submit" value="검색"></td>
+			</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
    <hr>
    <table border="1">
-      <tr>
-     	 <td>
-            <form action="search2.jsp" method="post" >
-               <input type="submit" value="회원 검색하기" >
-            </form>
-         </td>  
-         <td>
-            <form action="withdraw.jsp" method="post" >
-               <input type="submit" value="회원 탈퇴시키기" >
-            </form>
-         </td>    
+      <tr>  
          <td>
             <form action="logout.jsp" method="post" >
                <input type="submit" value="로그 아웃" >
             </form>
          </td>
       </tr>
-   </table>        
+   </table>       
 </body>
 </html>   

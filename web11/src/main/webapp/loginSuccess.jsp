@@ -48,12 +48,12 @@
       <tr>   
          <td>
             <form action="bang.jsp" method="post" >
-               <input type="submit" value=" ◀ 서비스 이용하기" >
+               <input type="submit" value="서비스 이용하기" >
             </form>
          </td>
          <td>
             <form action="logout.jsp" method="post" >
-               <input type="submit" value=" 로그 아웃 ▶" >
+               <input type="submit" value=" 로그 아웃" >
             </form>
          </td>
    </table>        

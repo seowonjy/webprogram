@@ -15,12 +15,12 @@
 		<tr>
 			<td>
 				<form action="main.jsp" method="post" >
-					<input type="submit" value=" ◀ 메인 화면으로 " >
+					<input type="submit" value="메인 화면으로 " >
 				</form>	
 			</td>
 			<td>		
 				<form action="signup.jsp" method="post" >
-					<input type="submit" value=" 다시 가입하기 ▶" >
+					<input type="submit" value=" 다시 가입하기" >
 				</form>
 			</td>
 		</tr>	 

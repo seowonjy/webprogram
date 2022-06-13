@@ -7,13 +7,9 @@
 	String email = request.getParameter("userMAIL");
 	String name = request.getParameter("userNAME");
 	String sum = request.getParameter("String");
-	String sql = "select name, id, email from members where id like ? or name like ? or email like ?;";
-	if (id != null)
-		sql = "select name, id, email from members where id like ?;";
-	if (email != null)
-		sql = "select name, id, email from members where email like ?;";
-	if (name != null)
-		sql = "select name, id, email from members where name like ?;";
+	String ch = request.getParameter("check");
+	
+	String sql = "select name, id, email from members where " + ch + " like ?";
 	ResultSet rs = null;
 		Class.forName("com.mysql.jdbc.Driver");
 		String url = "jdbc:mysql://localhost:3306/odbo";
@@ -22,8 +18,6 @@
 		Connection conn = DriverManager.getConnection(url, user, passwd);
 		PreparedStatement stmt = conn.prepareStatement(sql);
 			stmt.setString(1, "%"+sum+"%");
-			stmt.setString(2, "%"+sum+"%");
-			stmt.setString(3, "%"+sum+"%");
 			rs = stmt.executeQuery();
 %>
    <table border="1">
@@ -44,4 +38,13 @@
 	
 	}
 		%>
-         
+            <hr>
+   <table border="1">
+      <tr>
+     	 <td>
+            <form action="membersList.jsp" method="post" >
+               <input type="submit" value="멤버관리창 돌아가기" >
+            </form>
+         </td> 
+         </tr>
+         </table>

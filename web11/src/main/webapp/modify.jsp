@@ -63,8 +63,8 @@
 			관리자유무 : <%= u_manager%><br> <br>
 			<input type="checkbox" name="userMANAGER"><br><br>
 			<hr>
-			<input type="reset" value=" ◀ 다시작성 ">
-			<input type="submit" value=" 수정하기 ▶ ">
+			<input type="reset" value="다시작성 ">
+			<input type="submit" value=" 수정하기">
 			<br><br>
 		</fieldset>
 	</form>

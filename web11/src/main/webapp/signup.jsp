@@ -58,8 +58,8 @@
 			이름 : <br> 
 			<input type="text" size = "16" name="userNAME"><br><br>	
 			<hr>
-			<input type="reset" value=" ◀ 다시작성 ">
-			<input type="submit" value=" 가입하기 ▶ ">
+			<input type="reset" value="다시작성">
+			<input type="submit" value="가입하기">
 			<br><br>
 		</fieldset>
 	</form>
