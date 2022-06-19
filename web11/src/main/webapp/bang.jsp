@@ -25,11 +25,13 @@
       
       while(rs.next()){
           str += "<tr>" + "<td align = 'center'>"+ count + "</td>" +"<td>" + rs.getString("title") + "</td>" + "<td>" + rs.getString("text")
-          + "</td>" + "</tr>";
+          + "</td>" + "'> 수정 </a></center></td>"+
+          "<td><center><a href='bangmodify.jsp?userTITLE=" + rs.getString("title") + "&userTEXT=" + rs.getString("text")+  "'> 수정 </a></center></td>"+ 
+     	  "<td><center><a href='bangdrawCheck.jsp?userTITLE=" + rs.getString("title") + "'> X </a></center></td>" +"</tr>";
           count++;
        }
 
-        out.print("<tr> <td> 번호 </td> <td>제목</td> <td>내용</td> </tr>");
+        out.print("<tr> <td> 번호 </td> <td>제목</td> <td>내용</td> <td>수정</td> <td>삭제</td> </tr>");
       out.print(str);
       
       rs.close();
@@ -43,7 +45,12 @@
             <form action="addbang.jsp" method="post" >
                <input type="submit" value="게시글 등록하기" >
             </form>
-         </td>    
+         </td>   
+           <td>
+            <form action="bangwithdraw.jsp" method="post" >
+               <input type="submit" value="게시글 삭제하기" >
+            </form>
+         </td> 
          <td>
             <form action="logout.jsp" method="post" >
                <input type="submit" value=" 로그 아웃" >

@@ -9,19 +9,19 @@
 <body>
 	Home > 회원 탈퇴 성공
 	<hr>
-	그동안 감사했습니다. <p>
+	회원 탈퇴가 완료되었습니다. <p>
 
 	<table border="0">
 		<tr>
 			<td>
-				<form action="main.jsp" method="post" >
-					<input type="submit" value="메인 화면으로 " >
+				<form action="membersList.jsp" method="post" >
+					<input type="submit" value="회원 관리 화면 이동" >
 				</form>	
 			</td>
-			<td>		
+			<td>
 				<form action="signup.jsp" method="post" >
-					<input type="submit" value=" 다시 가입하기" >
-				</form>
+					<input type="submit" value="회원가입 화면 이동" >
+				</form>	
 			</td>
 		</tr>	 
 	</table>			

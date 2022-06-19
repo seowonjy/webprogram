@@ -26,12 +26,12 @@
 	</script>
 </head>
 <body>
-	Home > 회원 가입
+	Home > 게시글 등록
 	<hr>
 	<form action="insertbangDB.jsp" name="user_info" 
 		method="post" onsubmit="return checkFun()">
 		<fieldset style="width:230px">
-			<legend> 회원 가입 화면 </legend><p>
+			<legend> 게시글 등록 화면 </legend><p>
 	
 			제목 : <br>
 			<input type="text" size = "100" name="userTITLE"><br><br>

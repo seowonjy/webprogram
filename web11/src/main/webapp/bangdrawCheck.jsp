@@ -3,13 +3,12 @@
 <%@ page import="java.sql.*" %>
 <%@ include file = "dbConn.jsp" %>
 <% 
-      String u_title = request.getParameter("userTITLE");
-      String u_text = request.getParameter("userTEXT");
-
-	String sql = "update bang set text = ? WHERE  title = ?";
+	String u_title = request.getParameter("userTITLE");
+	String sql = "DELETE FROM bang WHERE title = ?";
 	
 	PreparedStatement sm = conn.prepareStatement(sql);
-	sm.setString(1, u_text);
+	sm.setString(1, u_title);
+
 	int count = sm.executeUpdate();
 	
 	if(count == 1){
